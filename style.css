@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  height: 700px;
+  font-family: "Red Hat Display", sans-serif;
+}
+.container-card {
+  height: 600px;
+  width: 400px;
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: hsl(0, 0%, 100%);
+}
+.img-hero {
+  width: 400px;
+  height: 200px;
+}
+.title {
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(223, 47%, 23%);
+}
+.description {
+  text-align: center;
+  font-size: 16px;
+  padding: 0 40px;
+  color: hsl(224, 23%, 55%);
+}
+.btn-annual-plan-grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin: 0 40px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+}
+.music-img {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+.annual-text {
+  display: grid;
+  align-content: start;
+  font-size: 16px;
+}
+.annual-plan {
+  margin-top: 15px;
+  display: block;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+.price {
+  margin-top: 5px;
+  display: block;
+  color: hsl(224, 23%, 55%);
+}
+.btn--change {
+  display: grid;
+  align-content: center;
+  justify-items: start;
+}
+.btn-change {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+.btn {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+.btn-proceed {
+  padding: 20px 40px;
+}
+.btn-proceed-1 {
+  width: 100%;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  border: 0;
+  font-size: 12px;
+  font-weight: 700px;
+  box-shadow: 0 10px 10px rgb(183, 182, 182);
+  height: 40px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.btn-cancel {
+  padding: 0px 40px;
+}
+.btn-cancel-2 {
+  background: none;
+  font-size: 12px;
+  font-weight: 700;
+  border: 0;
+  color: hsl(224, 23%, 55%);
+  cursor: pointer;
+}
